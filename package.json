@@ -1,0 +1,13 @@
+{
+  "name": "supa-node-native",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ncmake rebuild",
+    "install": "ncmake update",
+    "test": "node main.js"
+  },
+  "devDependencies": {
+    "node-cmake": "^2.5.1"
+  },
+  "dependencies": {}
+}
